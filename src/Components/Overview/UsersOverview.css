@@ -1,0 +1,124 @@
+#about{
+    padding-top: 5%;
+    margin:0% 1% 0% 1%;
+}
+
+#UserResult{
+    padding-top: 5%;
+    margin:0% 5% 0% 1%;
+    display: flex;
+    justify-content: center;
+    font-size: 700%;
+
+}
+
+#Result{
+    padding-top: 5%;
+    margin:0% 15% 0% 10%;
+    /* display: flex; */
+    justify-content:flex-start;
+}
+
+.row1{
+    margin-top: 2%;
+    display: flex;
+    background-color: aquamarine;
+    justify-content:flex-end;
+    width: 75%;
+    position: absolute;
+    right: 0%;
+    height:50%;
+    border-radius: 5px;
+    border-color: aquamarine;
+    border-bottom: 5%;
+}
+
+.row1 button{
+        padding-left: 15%; 
+        border-radius: 5px;
+}
+
+
+
+.row1     #btn1{
+margin: 2%;
+background-color: rgb(57, 15, 222);
+border-radius: 5px;
+text-align: start;
+justify-self: center;
+padding-left: 2%;
+}
+
+.row1 #btn2{
+    margin: 2%;
+    background-color: brown;    
+    }
+
+.row1    #btn3{
+        margin: 2%;
+        background-color: brown;  
+}
+
+    .Text1, .Text2, .Text3{
+display: flex;
+top: 10%;
+height: 5em;
+padding-top:2%;
+justify-content: space-between;
+margin:0% 1% 0% 10%;
+}
+
+.Text2{
+   justify-content: center ; 
+   transform: 45Deg;
+   padding: 0%;
+}
+
+.Text3{
+    display: inline-block;
+    margin: 0;
+    padding-top: 0%;
+    padding-bottom: 5%;
+    margin:0% 1% 0% 1%;
+}
+
+.row1, .row2{
+display: flex;
+
+}
+
+.row2{
+    padding-top: 30%;
+    background-color: blue; 
+    padding-left: 10%;
+    margin-left: 15%;
+    border-radius: 10px;   
+ }
+
+.row2 #Btn1{
+    margin: 10%;
+    background-color: yellowgreen;
+    padding-left: 5%;
+    height: 5%;
+
+}
+
+.Text4{
+        flex-direction: column;
+        padding-top: 0%;
+        
+}
+.row3{
+    padding-top: 20%;
+    background-color: brown;
+    margin: 5%;
+}
+
+.row3 button{
+    /* display: flex;
+    flex-direction:; */
+    padding-left: 10%; 
+    height: 40%;
+    width:20%;
+   
+}

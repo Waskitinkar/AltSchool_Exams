@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    Padding: 0;
+    box-sizing: border-box; 
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+    height: 100vh;
+    width: 100%;
+  }
+
+/* nav {
+    display: flex;
+    align-items: center;
+    width:100%;
+    background-color: aqua;
+    height:4em;
+}
+
+nav .BurgerMenuCon{
+    display: flex;
+    flex-direction: column;
+padding-left: 20%;
+   
+}
+
+
+nav .BurgerMenuCon i{
+    display: flex;
+    flex-direction: column;
+    margin:20%;
+    padding: 20%;
+    border-radius: 2px;
+    background-color: grey;
+    width:20%;
+    border-color: grey;
+    justify-content: end;
+       
+}
+
+.OpenIcon{
+    height: 40%;
+    width:50px;
+}
+
+.CloseIcon{
+        height: 40%;
+        width:50px;
+    } */
