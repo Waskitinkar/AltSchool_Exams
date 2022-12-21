@@ -12,7 +12,10 @@ function App() {
   return (
     <div className="App">
     <Navbar /> 
-      <AppRouter/>
+    
+    <div id="AppRouter">
+      <AppRouter />
+    </div>
       {/* <Logo/> */}
       {/* <Footer/> */}
     </div>

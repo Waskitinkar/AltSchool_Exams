@@ -6,7 +6,7 @@ function Navigation() {
   return (
     
     <nav className={classes.Navigation}>
-      <div className='Heading'><h1 style={{color:'red'}}>
+      <div className='Heading'><h1 style={{color:'blue'}}>
          NIGERIAN ELECTION REGISTRATION COUNCIL</h1></div>
     <Navlinks/>
     </nav>

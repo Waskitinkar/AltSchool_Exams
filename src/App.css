@@ -15,7 +15,8 @@
     width: 100%;
   }
 
-/* nav {
+
+ nav {
     display: flex;
     align-items: center;
     width:100%;
@@ -52,4 +53,17 @@ nav .BurgerMenuCon i{
 .CloseIcon{
         height: 40%;
         width:50px;
-    } */
+    }
+
+#AppRouter{
+  padding: 30%;
+  
+}
+
+button{
+  margin: 2%;
+  border: red;
+  
+}
+ 
+    

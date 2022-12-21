@@ -19,7 +19,7 @@ function MobileNav() {
 // };
  return (
     <nav className={classes.MobileNav}>
-   <div className='Heading'><h1 style={{color:'red'}}> 
+   <div className='Heading'><h1 style={{color:'green'}}> 
    NIGERIAN ELECTION REGISTRATION COUNCIL</h1></div>
 
    

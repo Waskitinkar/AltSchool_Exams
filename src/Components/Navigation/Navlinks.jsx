@@ -1,6 +1,4 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom';
-
+import { NavLink } from "react-router-dom";
 
 const CustomNavLink = ({ to, ...props }) => {
     let activeStyle = {
@@ -13,7 +11,6 @@ const CustomNavLink = ({ to, ...props }) => {
       <NavLink
         style={({ isActive }) =>
           isActive ? activeStyle : { textDecoration: 'none' }
-
         }
         to={to}
         end
@@ -21,22 +18,18 @@ const CustomNavLink = ({ to, ...props }) => {
       />
     );
   };
-
-
-  export default function Navlinks () {
-  return (
-    
-    <ul className='Navlinks'>
-      
-        <li><CustomNavLink to="/">Home</CustomNavLink></li>
-        <li><CustomNavLink to="/about">About</CustomNavLink></li>
-        <li><CustomNavLink to="/Electoral">Electoral Party</CustomNavLink></li>
-        <li><CustomNavLink to="/Electoral/new">New Voters</CustomNavLink></li>
-        <li><CustomNavLink to="/users">Users</CustomNavLink></li>
-        <li><CustomNavLink to="/Voters">Casted Votes</CustomNavLink></li>
-    </ul>
-    
- 
-
-  )
-}
+  
+  
+  function Layout() {
+    return (
+      <nav>
+        
+        <CustomNavLink to="/">Home</CustomNavLink>|{' '}
+        <CustomNavLink to="/UseCounter">Use Counter</CustomNavLink>|{' '}
+        <CustomNavLink to="/Voters">Testing Error404</CustomNavLink>|{' '}
+        <CustomNavLink to="/UseReducer">Use Reducer</CustomNavLink>|{' '}
+        <CustomNavLink to="/ErrorBoundary">Error Boundary</CustomNavLink>|{' '}
+      </nav>
+    );
+  }
+  export default Layout;
